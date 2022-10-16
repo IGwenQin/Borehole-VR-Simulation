@@ -74,7 +74,3 @@ Clone this project and open with Unity.
   It may be several seconds. The output images will be generated in render path.
 
 
-# Author
-- Yuki Sakamura
-- sakamura.yuki@image.iit.tsukuba.ac.jp
-- Computer vision and image media lab.
