@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314a1f34871ec5746a3243c283653076, type: 3}
+  m_Name: SampleCylinder
+  m_EditorClassIdentifier: 
+  scriptableSceneObject:
+    m_identifierId: 974285309
+    m_identified: 1
+  material: {fileID: 2100000, guid: ef9373be934d89c49a0bcc882592eeab, type: 2}
+  circleResolution: 34
+  heightResolution: 100
+  spatialResolution: 7
+  radius: 37.878876
+  circumference: 238
+  height: 700
+  smoothTexture: 1
+  smoothNormal: 1
+  generateZenith: 0
