@@ -8,7 +8,7 @@ Therefore, I decided to come up with this project to simulate the borehole condi
 
 
 # What It Is
-To achieve accurate comparative experiments under the same conditions, I employee Virtual Reality (VR) simulation for a borehole environment to investigate the appropriate camera layout and operation for generating high-quality 3D models by SfM.
+To achieve accurate comparative experiments under the same conditions, I employ Virtual Reality (VR) simulation for a borehole environment to investigate the appropriate camera layout and operation for generating high-quality 3D models by SfM.
 This VR simulation of boreholes can determinate what is the proper camera movement so that the 3D model could be generated successfully. 
 
 
@@ -26,7 +26,7 @@ Clone this project and open it with Unity.
 ## Generate a custom borehole 
 1. Select Create/CylinderData file.
 
-2. Setup parameters for underground borehole.
+2. Set up parameters for the underground borehole.
     - **material**  
       the texture of borehole wall
     - **circle resolution**  
@@ -44,7 +44,7 @@ Clone this project and open it with Unity.
 
 <p></p>
 
-3. Click the "Save" and then click the "Generate" button to generate borehole.  
+3. Click the "Save" and then click the "Generate" button to generate the borehole.  
   Note: If parameters are changed, click the "Update" button. 
 
 
@@ -55,7 +55,7 @@ Clone this project and open it with Unity.
     - **cylinder data**  
       target borehole data asset for registering images
     - **position offset** [m]  
-      the offset of camera arrangement (0 m means same height with zenith)
+      the offset of camera arrangement (0 m means the same height with zenith)
     - **sampling resolution** [/s]  
       shooting resolution per second (frame per second)
     - **camera velocity** [m/s]  
@@ -74,7 +74,7 @@ Note: If parameters are changed, click the "Update" button.
 
 
 4. Click the "Render" button to register images
-Now you can generate 3D model with the registered images. 
+Now you can generate a 3D model with the registered images. 
 
 
 
