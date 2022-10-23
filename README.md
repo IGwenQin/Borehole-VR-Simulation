@@ -1,10 +1,10 @@
-# Drill Simulator
-Application for shooting images of the inside of cylinder for structure form motion.
+# Borehole VR Simulation
+A VR simulation project that simulates the underground borehole condition and registers images for 3D reconstruction.
 
-## Features
-- parameters for generation of cylinder and camera arrangement
-- rendering options (resolution of images and output path)
-- preservation cylinder objects and camera arrangement objects as assets
+## Prologue
+This project aims to reconstruct 3D models of underground boreholes by means of Structure from Motion. However, it is challenging to generate 3D models using images registered inside an object. 
+Therefore, I decided to come up with this project to simulate the borehole condition and register images. 
+
 
 
 # Installation
