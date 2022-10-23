@@ -7,57 +7,61 @@ Therefore, I decided to come up with this project to simulate the borehole condi
 
 
 
-# Installation
-Clone this project and open with Unity.
+# What It Is
+To achieve accurate comparative experiments under the same conditions, I employee Virtual Reality (VR) simulation for a borehole environment to investigate the appropriate camera layout and operation for generating high-quality 3D models by SfM.
+This VR simulation of boreholes can determinate what is the proper camera movement so that the 3D model could be generated successfully. 
 
 
-# Sample
-1. Open Assets/Sample/SampleScene.unity
-2. Click "Render" botton in Assets/Sample/SampleCylinder.asset (wait for several seconds)
-3. Images will be generated in output/
+
+# How It Works
+The camera has three movement styles.
+1.	Register top-view images
+2.	Register side-view images rotationally
+3.	Register side-view images directly 
+
 
 
 # Usage
-## Generation of custom cylinder
-1. Right click on Unity and select Create/CylinderData
+Clone this project and open it with Unity.
+## Generate a custom borehole 
+1. Select Create/CylinderData file.
 
-2. Set parameters for generation of cylinder
+2. Setup parameters for underground borehole.
     - **material**  
-      the material of cylinder
+      the texture of borehole wall
     - **circle resolution**  
       the number of vertices of circle meshes
     - **height resolution**  
       the number of vertices of height meshes
     - **spatial resolution** [m/vert]  
-      the length per one vertex
+      the length per vertex
     - **smooth texture**  
-      refine uv-mesh in connection of vertices
-    - **sommth normal**  
+      refine uv-mesh in connection with vertices
+    - **smooth normal**  
       refine normal vector in connection of vertices
     - **generate zenith**  
-      if true, generate zenith (top of cylinder)
+      if true, generate zenith (top of the borehole)
 
 <p></p>
 
-3. Click "Save" and "Generate" botton to generate cylinder object  
-  Note that: Game object in scene and asset correspond to each other. Therefore, if you want to create the other, create new CylinderData.
+3. Click the "Save" and then click the "Generate" button to generate borehole.  
+  Note: If parameters are changed, click the "Update" button. 
 
-4. If parameters change, click "Update" botton
 
-## Generation of custom camera arrangement
-1. Right click on Unity and select Create/CylinderCameraData
+## Generate custom camera layout
+1. Select Create/CylinderCameraData file
 
-2. Set parameters for camera arrangement
+2. Set parameters for camera layout
     - **cylinder data**  
-      target cylinder data asset for shooting
+      target borehole data asset for registering images
     - **position offset** [m]  
       the offset of camera arrangement (0 m means same height with zenith)
     - **sampling resolution** [/s]  
       shooting resolution per second (frame per second)
     - **camera velocity** [m/s]  
-      the falling velocity of camera
+      the falling velocity of the camera
     - **camera rotation velocity** [euler/s]  
-      the rotation velocity of camera (euler angle)
+      the rotation velocity of the camera (euler angle)
     - **render size**  
       output image size
     - **render path**  
@@ -65,12 +69,12 @@ Clone this project and open with Unity.
 
 <p></p>
 
-3. Click "Save" and "Generate" botton to generate camera objects  
-  Note that: Semilar to cylinder, game object in scene and asset correspond to each other. Therefore, if you want to create the other, create new CylinderCameraData.
+3. Click the "Save" and "Generate" button to generate cameras.
+Note: If parameters are changed, click the "Update" button.
 
-4. If parameters change, click "Update" botton
 
-5. Click "Render" botton to shoot images  
-  It may be several seconds. The output images will be generated in render path.
+4. Click the "Render" button to register images
+Now you can generate 3D model with the registered images. 
+
 
 
