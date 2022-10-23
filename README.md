@@ -49,9 +49,9 @@ Clone this project and open it with Unity.
 
 
 ## Generate custom camera layout
-1. Select Create/CylinderCameraData file
+1. Select Create/CylinderCameraData file.
 
-2. Set parameters for camera layout
+2. Set parameters for camera layout.
     - **cylinder data**  
       target borehole data asset for registering images
     - **position offset** [m]  
@@ -73,7 +73,8 @@ Clone this project and open it with Unity.
 Note: If parameters are changed, click the "Update" button.
 
 
-4. Click the "Render" button to register images
+4. Click the "Render" button to register images.
+<p></p>
 Now you can generate a 3D model with the registered images. 
 
 
